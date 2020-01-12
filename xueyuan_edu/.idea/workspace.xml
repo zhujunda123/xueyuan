@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e363f4ba-a178-4089-b935-d4bc533ddeac" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0-bin\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V6L33c7aB12mLcIybe0MsDfzoK" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xueyuan_eduservice/src/main/java/com/online/edu/eduservice/entity/page" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.online.edu.eduservice.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\xueyuancode\xueyuan_edu\xueyuan_eduservice\src\main\java\com\online\edu\eduservice\entity\page" />
+      <recent name="F:\xueyuancode\xueyuan_edu\xueyuan_eduservice\src\test\java\com\online\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EduServiceApplication">
+    <configuration name="CodeGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xueyuan_eduservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.online.test" />
+      <option name="MAIN_CLASS_NAME" value="com.online.test.CodeGenerator" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CodeGenerator.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xueyuan_eduservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.online.test" />
+      <option name="MAIN_CLASS_NAME" value="com.online.test.CodeGenerator" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EduServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xueyuan_eduservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.online.edu.eduservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.online.edu.eduservice.EduServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EduServiceApplication" />
+        <item itemvalue="JUnit.CodeGenerator.run" />
+        <item itemvalue="JUnit.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e363f4ba-a178-4089-b935-d4bc533ddeac" name="Default Changelist" comment="" />
+      <created>1576568395466</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576568395466</updated>
+      <workItem from="1576568399655" duration="8257000" />
+      <workItem from="1576637063830" duration="4710000" />
+      <workItem from="1576670945617" duration="2684000" />
+      <workItem from="1576725067398" duration="2155000" />
+      <workItem from="1576764360458" duration="617000" />
+      <workItem from="1576841974326" duration="822000" />
+      <workItem from="1577152163230" duration="812000" />
+      <workItem from="1577156725776" duration="14863000" />
+      <workItem from="1577199656266" duration="131000" />
+      <workItem from="1577200329898" duration="1687000" />
+      <workItem from="1577238561754" duration="12068000" />
+      <workItem from="1577328834790" duration="12433000" />
+      <workItem from="1577412199346" duration="13421000" />
+      <workItem from="1577452691350" duration="5939000" />
+      <workItem from="1577459900211" duration="629000" />
+      <workItem from="1577506018362" duration="7379000" />
+      <workItem from="1577581424505" duration="3234000" />
+      <workItem from="1577890796823" duration="357000" />
+      <workItem from="1578148118186" duration="666000" />
+      <workItem from="1578153046633" duration="645000" />
+      <workItem from="1578194814423" duration="633000" />
+      <workItem from="1578488092903" duration="2016000" />
+      <workItem from="1578578226613" duration="54000" />
+      <workItem from="1578578314737" duration="4709000" />
+      <workItem from="1578630964047" duration="94000" />
+      <workItem from="1578631306682" duration="113000" />
+      <workItem from="1578631558243" duration="9436000" />
+      <workItem from="1578704194258" duration="17962000" />
+      <workItem from="1578792901313" duration="267000" />
+      <workItem from="1578793255320" duration="20000" />
+      <workItem from="1578793319051" duration="3383000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
