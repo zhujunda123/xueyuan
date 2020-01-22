@@ -1,10 +1,10 @@
 package com.online.edu.eduservice.controller;
 
 
-
 import com.online.edu.common.R;
 import com.online.edu.eduservice.entity.EduTeacher;
 import com.online.edu.eduservice.entity.EduUser;
+import com.online.edu.eduservice.handler.EduException;
 import com.online.edu.eduservice.service.EduUserService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * <p>
- *  前端控制器
+ * 前端控制器
  * </p>
  *
  * @author testjava
@@ -28,30 +28,40 @@ import java.util.List;
 public class EduUserController {
     @Autowired
     private EduUserService eduUserService;
-    @GetMapping
-    public R getAllUser(HttpServletRequest request){
-        String s = request.getHeader("x-token");
-        System.out.println(s);
-        List<EduUser> list = eduUserService.list(null);
-        return R.ok().data("list",list);
-    }
-    @DeleteMapping("{id}")
-    public R removeById(@PathVariable(value = "id")Integer id, HttpServletRequest request){
 
-        String roles = (String)request.getAttribute("roles");
+    @GetMapping
+    public R getAllUser(HttpServletRequest request) {
+//        String s = request.getHeader("x-token");
+//        System.out.println(s);
+        String admin_claims = (String) request.getAttribute("admin_claims");
+        System.out.println("权限");
+        System.out.println(admin_claims);
+        if (admin_claims.equals("[admin]")) {
+            List<EduUser> list = eduUserService.list(null);
+            return R.ok().data("list", list);
+        } else {
+           return R.error();
+        }
+    }
+
+    @DeleteMapping("{id}")
+    public R removeById(@PathVariable(value = "id") Integer id, HttpServletRequest request) {
+
+        String roles = (String) request.getAttribute("roles");
 
         boolean b = eduUserService.removeById(id);
-        if(b){
+        if (b) {
             return R.ok().message("删除成功");
-        }else {
+        } else {
             return R.error();
         }
     }
+
     //根据id查询用户
     @GetMapping("{id}")
-    public R getUserById(@PathVariable(value = "id")Integer id){
+    public R getUserById(@PathVariable(value = "id") Integer id) {
         EduUser user = eduUserService.getById(id);
-        return R.ok().data("user",user);
+        return R.ok().data("user", user);
     }
 
 

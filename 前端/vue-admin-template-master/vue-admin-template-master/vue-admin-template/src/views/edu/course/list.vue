@@ -70,6 +70,7 @@
       >清空</el-button>
     </el-form>
     <!-- 表格 -->
+    <!-- 表格 -->
     <el-table
       v-loading="listLoading"
       :data="list"
@@ -92,15 +93,19 @@
 
       <el-table-column
         label="课程信息"
-        width="300"
+        width="470"
         align="center"
       >
         <template slot-scope="scope">
-          <div class="">
+          <div class="info">
             <div class="pic">
-              <img :src="scope.row.cover">
+              <img
+                :src="scope.row.cover"
+                alt="scope.row.title"
+                width="150px"
+              >
             </div>
-            <div class="">
+            <div class="title">
               <a href="">{{ scope.row.title }}</a>
               <p>{{ scope.row.lessonNum }}课时</p>
             </div>
@@ -109,7 +114,7 @@
         </template>
       </el-table-column>
 
-      <el-table-column
+      <!-- <el-table-column
         label="创建时间"
         align="center"
       >
@@ -124,7 +129,7 @@
         <template slot-scope="scope">
           {{ scope.row.gmtModified.substr(0, 10) }}
         </template>
-      </el-table-column>
+      </el-table-column> -->
       <el-table-column
         label="价格"
         width="100"
@@ -183,7 +188,6 @@
             type="text"
             size="mini"
             icon="el-icon-delete"
-            @click="removeDataById(scope.row.id)"
           >删除</el-button>
         </template>
       </el-table-column>
@@ -236,28 +240,6 @@ export default {
   },
 
   methods: {
-    removeDataById (id) {
-      this.$confirm('此操作将永久删除该课程，以及该课程下的章节和视频，是否继续?', '提示', {
-        confirmButtonText: '确定',
-        cancelButtonText: '取消',
-        type: 'warning'
-      }).then(() => {
-        return course.removeById(id)
-      }).then(() => {
-        this.fetchData()
-        this.$message({
-          type: 'success',
-          message: '删除成功!'
-        })
-      }).catch((response) => { // 失败
-        if (response === 'cancel') {
-          this.$message({
-            type: 'info',
-            message: '已取消删除'
-          })
-        }
-      })
-    },
     fetchData (page = 1) { // 调用api层获取数据库中的数据
       console.log('加载列表')
       // 当点击分页组件的切换按钮的时候，会传输一个当前页码的参数page
@@ -268,6 +250,8 @@ export default {
         // debugger 设置断点调试
         if (response.success === true) {
           this.list = response.data.rows
+          console.log(111)
+          console.log(this.list)
           this.total = response.data.total
         }
         this.listLoading = false
@@ -275,7 +259,7 @@ export default {
     },
 
     initTeacherList () {
-      teacher.getTeacherPageList(this.page, this.limit, this.searchObj).then(response => {
+      teacher.getTeacherPageList(1, 10).then(response => {
         this.teacherList = response.data.items
       })
     },

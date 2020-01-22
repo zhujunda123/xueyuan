@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e363f4ba-a178-4089-b935-d4bc533ddeac" name="Default Changelist" comment="" />
+    <list default="true" id="e363f4ba-a178-4089-b935-d4bc533ddeac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../nginx-1.12.0/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx-1.12.0/logs/nginx.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xueyuan_eduservice/src/main/java/com/online/edu/eduservice/controller/EduUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xueyuan_eduservice/src/main/java/com/online/edu/eduservice/controller/EduUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xueyuan_eduservice/target/classes/com/online/edu/eduservice/controller/EduUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xueyuan_eduservice/target/classes/com/online/edu/eduservice/controller/EduUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端/vue-admin-template-master/vue-admin-template-master/vue-admin-template/src/views/edu/course/list.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端/vue-admin-template-master/vue-admin-template-master/vue-admin-template/src/views/edu/course/list.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../前端/vue-admin-template-master/vue-admin-template-master/vue-admin-template/src/views/user/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../前端/vue-admin-template-master/vue-admin-template-master/vue-admin-template/src/views/user/index.vue" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -30,6 +40,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1V6L33c7aB12mLcIybe0MsDfzoK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -44,6 +55,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -170,10 +182,22 @@
       <workItem from="1578792901313" duration="267000" />
       <workItem from="1578793255320" duration="20000" />
       <workItem from="1578793319051" duration="3383000" />
+      <workItem from="1579656667445" duration="2660000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
